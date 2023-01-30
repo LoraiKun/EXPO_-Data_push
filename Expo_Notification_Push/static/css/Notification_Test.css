@@ -1,0 +1,15 @@
+.labelGrid *{
+    display: grid;
+}
+
+.labelGrid label {
+    font-weight: bold;
+}
+
+.button1 {
+    height: auto;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: auto;
+
+}

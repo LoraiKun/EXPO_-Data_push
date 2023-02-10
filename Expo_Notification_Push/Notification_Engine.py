@@ -19,7 +19,7 @@ def hello_world():
     
     if (request.method== 'POST'):
         body= request.form['body']
-        send_push_message("testing shit",body)
+        send_push_message("testing sheet",body)
         
         
     return render_template('Notification_Test.html', name='BOH')
